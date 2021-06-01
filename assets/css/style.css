@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-size: cover;
+}
+
+.jumbotron {
+  background-image: url('../images/jumbotron.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: black;
+}
+.jumbotron p {
+  font-size: 37px;
+  color: white;
+  justify-content: center;
+}
+.well {
+  font-size: 20px;
+  color: white;
+  background-color: #2222;
+}
+.navbar-brand img {
+  width: 130px;
+  position: relative;
+  left: 300px;
+  bottom: 20px;
+}
+#myNavbar {
+  font-size: 17px;
+  padding-right: 320px;
+}
+#myNavbar a:hover {
+  color: #ffc800;
+}
+.article {
+  width: 1400px;
+  margin: auto auto;
+}
+.articles {
+  width: 1400px;
+  margin: auto auto;
+}
+.articles h3 {
+  font-size: 35px;
+}
+.articles p {
+  font-size: 18px;
+}
+.form-contact {
+  width: 600px;
+  margin-left: 320px;
+}
+.list-contact {
+  width: 600px;
+  margin-left: 70px;
+}
